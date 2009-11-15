@@ -1,0 +1,15 @@
+Vidio - Using YouTube, Vimeo and hopefully others at some point
+===============================================================
+Input a link, embed, or ID and output a link, proper embed, ID or SWFObject 2.x code.
+
+{exp:vidio format="object" width="480" height="340"}http://www.youtube.com/watch?v=xxxxx{/exp:vidio}
+Will output the player from just the url
+
+{exp:vidio format="id"}http://www.youtube.com/watch?v=xxxxx{/exp:vidio}
+Will output the video ID from a URL or embed code
+
+{exp:vidio format="link"}<object ... />{/exp:vidio}
+Will output the link from a embed code
+
+{exp:vidio format="so" id="myContent" replace="myContainer"}<object ... />{/exp:vidio}
+Will output the video using SWFObject 2.x format
