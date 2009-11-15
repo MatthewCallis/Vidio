@@ -107,9 +107,6 @@ class Vidio{
 		}
 	}
 
-	// ----------------------------------------
-	//  Plugin Usage
-	// ----------------------------------------
 	function usage(){
 		ob_start();
 ?>
@@ -129,6 +126,5 @@ class Vidio{
 		ob_end_clean();
 		return $buffer;
 	}
-	// END
 }
 ?>
